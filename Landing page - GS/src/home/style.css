@@ -6,3 +6,32 @@ a:hover{
     font-size: larger;
     color:rgb(75, 179, 214);
 }
+
+main{
+    background-image: url('/Landing page - GS/public/imgs/imgs de fundo/beautiful-seaside-waves.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 2);
+}
+
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+
+.logo-e-nome{
+    display:flex;
+    flex-flow:wrap;
+    align-items:center;
+    gap: 1rem;
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    gap: 0.85rem;
+}
